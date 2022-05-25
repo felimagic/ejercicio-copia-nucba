@@ -1,0 +1,60 @@
+body {
+    background-color: #390099;
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    font-size: 16px;
+    background: #390099;
+    color:  white;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.container {
+    background-color: #FC1F6E;
+    width: 65%;
+    height: 250px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+img{
+    height: 100%;
+    width: 40%;
+    object-fit: cover;
+}
+.form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 60%;
+    height: 45%;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    padding: 8px;
+    margin: 10px;
+    font-size: 1em;
+}
+.INGRESAR{
+    background-color: #390099;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    width: 60%;
+    height: 70%;
+    margin-top: 10px;
+    font-size: 1.2em;
+}
